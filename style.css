@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 20px 0;
+    margin:  0;
+    background: #2c3e50;
+}
+
+header h1 {
+    font-family: century gothic;
+    color: white;
+    transform: translateX(40%);
+}
+
+.tabs {
+    background: #2c3e50;
+}
+.tabs nav ul {
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.tabs nav ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.tabs nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+.tabs nav ul li a:hover{
+    background-color: #1f2c38;
+}
+
+.tabs nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+.tabs nav ul li:hover >ul{
+    display: block;
+}
+.tabs nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
